@@ -12,7 +12,7 @@ sudo apt install nginx
 ```bash
 sudo  vim /etc/nginx/sites-enabled/default
 ```
-在`server`中添加一个`location`项，将路径指向本项目的server文件夹
+在`server`中添加一个`location`项，将路径指向本项目的`web`文件夹
 ```
     location /debian {
         alias /xxx/wpi-update-server/web;
