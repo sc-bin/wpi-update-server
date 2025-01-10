@@ -1,0 +1,7 @@
+bluez
+initramfs-tools-hook
+plymouth-themes-walnutpi
+service-boot-script
+service-h616-conf-thermal-trip
+walnutpi1b-patch
+service-w1b-dis-mmc2

@@ -1,0 +1,123 @@
+Package: blinka
+Version: 0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 5676
+Depends: make, gcc
+Filename: arm64/blinka_0.1_all.deb
+Size: 2617176
+MD5sum: 40aca76e4c6fb002ef9247ecdeedf28d
+SHA1: e77d6acd62dfa95a17cff1eb4dd93e48fbaf5542
+SHA256: 700597e7195842f17ecd46f2b1cdf95c563cc98d113d3091314cad5ee12f626c
+Section: free
+Priority: optional
+Description: control the gpio with python
+
+Package: bluez
+Version: 666.6.66-1+deb12u1
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 3484
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: libasound2 (>= 1.0.17), libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libdw1 (>= 0.127), libglib2.0-0 (>= 2.31.8), libreadline8 (>= 6.0), libudev1 (>= 196), kmod, udev, lsb-base, default-dbus-system-bus | dbus-system-bus
+Suggests: pulseaudio-module-bluetooth
+Conflicts: bluez-audio (<= 3.36-3), bluez-utils (<= 3.36-3)
+Breaks: udev (<< 170-1)
+Replaces: bluez-audio (<= 3.36-3), bluez-input, bluez-network, bluez-serial, bluez-utils (<= 3.36-3), udev (<< 170-1)
+Filename: arm64/bluez_666.6.66-1+deb12u1_arm64.deb
+Size: 894618
+MD5sum: 68a22885d695ef751b2ff8299c8d0eeb
+SHA1: fcc0ac882d4751bf5ef06d70423d45bf38ef0fc8
+SHA256: d85ecd4b7549e20712eae2fa2c6d695b71c5c7fbc17efa385049b9c0d941caa7
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.bluez.org
+Description: Bluetooth tools and daemons
+ This package contains tools and system daemons for using Bluetooth devices.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: gpioc
+Version: 1.5
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 1488
+Depends: make, gcc
+Filename: arm64/gpioc_1.5_all.deb
+Size: 572066
+MD5sum: 71cba5a4005444926f8aaf4290d64637
+SHA1: ba67d518623116f8082007928f079b96d7f37dd8
+SHA256: 7e41e0b3e798ba903de03a1fac37c5170db6612a17a5c7e225dd24f3acdf0302
+Section: free
+Priority: optional
+Description: control the gpio
+
+Package: hcitools
+Version: 1.0.1
+Architecture: arm64
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 2316
+Filename: arm64/hcitools_1.0.1_arm64.deb
+Size: 881448
+MD5sum: b2997e3f7fbd3deb4e8f815787c8f72b
+SHA1: f17c932a8d758dd1863adea143aff99fd6858a18
+SHA256: bbc6ac6b30a750f206787702197d4fbf424cafbfabb411fe504877c72d08bcac
+Section: free
+Priority: optional
+Description: hcitools is used to control bluetooth
+
+Package: python3-sudo
+Version: 1.0.0
+Architecture: arm64
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 92
+Filename: arm64/python3-sudo_1.0.0_arm64.deb
+Size: 3698
+MD5sum: 4826f0627758d074910d36c81d314807
+SHA1: 56267f7c90536098db574666d35e66718649c1c5
+SHA256: 8eb62e6cec98831c36bff648041c2a73f40216673397a3f5263573806dda3ed3
+Section: free
+Priority: optional
+Description: run python3 as sudo
+
+Package: realvnc-vnc-viewer
+Source: realvnc-vnc
+Version: 7.6.0.50657
+Architecture: arm64
+Maintainer: RealVNC <noreply@realvnc.com>
+Installed-Size: 10210
+Depends: libc6, libgcc1 (>= 1:4.2), libice6 (>= 1:1.0.0), libsm6, libx11-6, libxext6
+Conflicts: vnc-e, xtightvncviewer
+Filename: arm64/VNC-Viewer-7.6.0-Linux-ARM64.deb
+Size: 3396800
+MD5sum: bc2299dfbe04f9af004c853c7c5e17ed
+SHA1: 5a92ba323b9b21f22df6c789ef644f74b6a5336c
+SHA256: b03fa4a6b0567895782a657e99cec2da1c8410f97db2e9e5d9a9adf8e85c2b9c
+Section: x11
+Priority: optional
+Homepage: https://www.realvnc.com/
+Description: VNC® Viewer
+ VNC Viewer, from RealVNC, the original inventor of VNC technology, is remote access
+ software that enables you to securely connect to and control a remote
+ computer.
+ RealVNC recommends the realvnc-vnc-server package (VNC Server) for the
+ remote computer, for seamless, secure and reliable connections. A free trial
+ is available.
+
+Package: walnutpi-lib
+Version: 1.0.3
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 9076
+Depends: make, gcc
+Filename: arm64/walnutpi-lib_1.0.3_all.deb
+Size: 4065968
+MD5sum: 47d5055dd70b2b001c3a1f24b87f4b35
+SHA1: b06941bb8c6aafe9709d8ca64f17421ce4c062a4
+SHA256: 4d8b6c1e930765764e374a2037c57b6682f56bb2851fcf1d2ee444775f4287b7
+Section: free
+Priority: optional
+Description: walnutpi support some lib
+
