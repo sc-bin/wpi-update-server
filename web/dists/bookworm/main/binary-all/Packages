@@ -200,6 +200,20 @@ Section: free
 Priority: optional
 Description: initramfs-tools hooks
 
+Package: map-device
+Version: 0.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 6800
+Filename: main/map-device_0.0.1_all.deb
+Size: 6808126
+MD5sum: 8de130e8f9e4b0db9d175a8f8a3d1fa7
+SHA1: 01f73114a781a48297d23a65ee336c4ac7184836
+SHA256: 920ae419c8d6f8cf2912ef9dd1cd785c4fe2953dd807e1ffb87a1e9480c60d5c
+Section: free
+Priority: optional
+Description: map device
+
 Package: plymouth-themes-walnutpi
 Version: 1.0.0
 Architecture: all
@@ -242,6 +256,20 @@ Section: free
 Priority: optional
 Description: transfer the .ui to .py by PyQt5.uic.pyuic
 
+Package: service-aw-eth-mac
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 48
+Filename: main/service-aw-eth-mac_1.0.0_all.deb
+Size: 1452
+MD5sum: 9f253468eef556b167737ec39afa5025
+SHA1: 1e950eace6e74b627fe79cafa9a9f15b58210ae9
+SHA256: e2c505814b5a0c13c0668e09572c87b329a2ed40f6b51535689fc6f884485b5e
+Section: free
+Priority: optional
+Description: service, keep the mac same as chip generate
+
 Package: service-aw859-bluetooth
 Version: 1.0.0
 Architecture: all
@@ -257,29 +285,29 @@ Priority: optional
 Description: service, enable the aw859 bluetooth
 
 Package: service-aw869-bluetooth
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
 Installed-Size: 36
-Filename: main/service-aw869-bluetooth_1.0.0_all.deb
-Size: 1064
-MD5sum: 537d9919db42be928f836513830bc695
-SHA1: b5b39a3ed3a74fb4c0ad59d3f8e195d0b83752e0
-SHA256: 2fb5c46ffc0f7eed4e9331661ab3f029a60599bba079c1407a4549b1b88e1872
+Filename: main/service-aw869-bluetooth_1.0.1_all.deb
+Size: 1098
+MD5sum: bc0eb2f27547d794d8629e59c2b7a0e6
+SHA1: 9d1fe3332391f5a89bb6f08f9b154160bb641796
+SHA256: 77ba18a084b8ce06337ff7771052901220cb0f3418840a62617a0fac2b52bab7
 Section: free
 Priority: optional
 Description: service, enable the aw869 bluetooth
 
 Package: service-boot-script
-Version: 1.1.1
+Version: 1.2.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 36
-Filename: main/service-boot-script_1.1.1_all.deb
-Size: 1200
-MD5sum: 55a474780fe75e51471159f956ce7027
-SHA1: 4a419ee75f8f7e3c0a67c5c41ce34113dfb84fe6
-SHA256: 7e11b2c3fff213af53352441facacd16b9919e1c40c729760fd5697d02f0315e
+Installed-Size: 40
+Filename: main/service-boot-script_1.2.0_all.deb
+Size: 1670
+MD5sum: 5615bb410fcce390d6bacb606b1808e5
+SHA1: 112a2918f2dd20af0f2e3e8e321311f90dd6e47f
+SHA256: 4948fabab6f203687b468682acd5052c0393096a69e47d2acb0c3922e4a37ac7
 Section: free
 Priority: optional
 Description: service,run the scripts when power on
@@ -340,6 +368,20 @@ Section: free
 Priority: optional
 Description: service,extend the part size at first boot
 
+Package: service-restart-lightdm
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 40
+Filename: main/service-restart-lightdm_1.0.0_all.deb
+Size: 1232
+MD5sum: c390ade27b3da50c4026925450e3058a
+SHA1: b8a5ec317fff1d0a597a30626e06f8bbc21dc9a9
+SHA256: 560c62a65841b19cb87760c1582e2095e1f43ceb11fa1ed2771f31bc45d2f54b
+Section: free
+Priority: optional
+Description: auto restart the lightdm
+
 Package: service-w1b-dis-mmc2
 Version: 1.0.0
 Architecture: all
@@ -355,29 +397,29 @@ Priority: optional
 Description: service, run on walnutpi-1b board. set the mmc2 pins as off if mmc2 is disable
 
 Package: set-device
-Version: 1.0.0
+Version: 1.1.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
 Installed-Size: 28
-Filename: main/set-device_1.0.0_all.deb
-Size: 1626
-MD5sum: 3f032d898bcbe1f97216e98e101fa15d
-SHA1: e33eeb8acbf682ea1d34f89d03301740456cbe2b
-SHA256: 749fa40cd653180a0d1a3b40c83aa42be7bb820e2721e3be75855d0630d70f99
+Filename: main/set-device_1.1.0_all.deb
+Size: 2394
+MD5sum: e74487560e622cca8a133890fa7b512e
+SHA1: 54b27c6642a0360346c893d8157af04fb081dc07
+SHA256: 4a58ad2cec773acfb1badb584a45755566c34632c4f1fbd9b041ea92398d5425
 Section: free
 Priority: optional
 Description: Modifying the /boot/config.txt file about overlays
 
 Package: set-emmc
-Version: 1.0.2
+Version: 1.1.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
 Installed-Size: 32
-Filename: main/set-emmc_1.0.2_all.deb
-Size: 2566
-MD5sum: da60ae8b9db33a5821d2a62235833da7
-SHA1: 2f281624bcb5e02fe61d2feb3188a28d5869d1f4
-SHA256: b2ea112d9be8e3eb29baa5e4d94410ca737cc342fdd24f8cabdeabcb92ebd4f9
+Filename: main/set-emmc_1.1.0_all.deb
+Size: 3280
+MD5sum: fa57293e4a190dca91d8c52adafbcdde
+SHA1: 67ce79c997fb0b1a40efcc7ab5df0018c15545a2
+SHA256: 0c8d8e9414da43a7a84560ef01c5b9a3886de4fc0ccbba3bf9808c2240abaaaf
 Section: free
 Priority: optional
 Description: set-emmc command
@@ -412,18 +454,32 @@ Priority: optional
 Description: Configuration language
 
 Package: set-lcd
-Version: 1.1.1
+Version: 1.1.2
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 868
-Filename: main/set-lcd_1.1.1_all.deb
-Size: 207630
-MD5sum: 86f065cb3f87ab414e94a4624bde4d98
-SHA1: ace63ac1d27117407c4e360610d4f118a60dd88e
-SHA256: 00f0e2d96be60ff9e72ccea2cbc6764aefdc59bec514034410f0cdd90eff1ad6
+Installed-Size: 992
+Filename: main/set-lcd_1.1.2_all.deb
+Size: 215142
+MD5sum: 040e4485bb6d240efb144b344dd047ef
+SHA1: 8733e0d2c5b5abab33d1013598b45ad63f4d92b6
+SHA256: 3bf8a212380a9d753eb05500f30e6b002562452dca7fecc4c3627d130d207a69
 Section: free
 Priority: optional
 Description: Configuration lcd
+
+Package: set-nvme
+Version: 0.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 28
+Filename: main/set-nvme_0.0.1_all.deb
+Size: 2112
+MD5sum: 79255a7e455beca8d1e97b8690a22cf7
+SHA1: ce6f8c94f9c304d510ba79fde5042e5ad53365bc
+SHA256: f1e9d23c8ffc5ee8ed0e68e471341781b79c252d70e6410898156aa3f93b898d
+Section: free
+Priority: optional
+Description: set-nvme command
 
 Package: set-vnc
 Version: 1.0.1
@@ -440,15 +496,15 @@ Priority: optional
 Description: Configuration x11 vnc server
 
 Package: t527-fbdev
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
 Installed-Size: 24
-Filename: main/t527-fbdev_1.0.0_all.deb
-Size: 670
-MD5sum: e4beb60d60d2b78f18514cde1949b672
-SHA1: 9c8cfe4c13820b6d463a5f85f302b6d5ed8149c1
-SHA256: 1e310b999b1fe77772d2d004ffc2b291cb4cf69186a3813f9d1d4a3b1ecb279e
+Filename: main/t527-fbdev_1.0.1_all.deb
+Size: 668
+MD5sum: 52c9f99abd1644354072e124144b2fc7
+SHA1: ddb489253f6aa799c78b8864b31979fa1005a856
+SHA256: 93a9b79784aefacbbfd12a785e87b0acc9fa4eebd7aaaac51a88661eb5427111
 Section: free
 Priority: optional
 Description: set xorg use fbdev
@@ -564,15 +620,15 @@ Priority: optional
 Description: setting the lightdm autologin as pi.run ternimal in server
 
 Package: wpi-user
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
 Installed-Size: 56
-Filename: main/wpi-user_1.0.1_all.deb
-Size: 3104
-MD5sum: 5e75e8e0b2cfd663a4d3c7ba585e603d
-SHA1: b354ed04bc3dfd3c461141c2c1b25623ed97a215
-SHA256: 95dae27025aeefe34140e656dde00201246559fe57e52ae172a1e5f7a8b644c5
+Filename: main/wpi-user_1.0.2_all.deb
+Size: 3060
+MD5sum: a115e2a25fc15b6324a7318d2af69765
+SHA1: 1f93018fea91bc3c24bb31ab110314e6dfadc51f
+SHA256: de390978e2ec9456216843c535cc7c56114d9138d114934ae2538edd7f11900f
 Section: free
 Priority: optional
 Description: walnutpi user setting
